@@ -42,8 +42,7 @@ def new_file(event = None):
 
 # To open an independent instance of Notepad (another window)
 def new_window(event = None):
-    # os.startfile("Notepad.exe")
-    pass
+    os.startfile("notepad.pyw")
 
 
 # Implementation of font menu
