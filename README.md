@@ -1,8 +1,8 @@
 # Notepad Clone
 A  Microsoft Notepad clone made using Python's Tkinter library.
 This project aims to replicate the basic text editor that has shipped with the Microsoft Windows operating system since 1985. No specific version of the program is being targeted. The goal is to provide the features with a familiar user interface.
-![Root Window](url)
-![Menu Bar](url)
+![Root Window](/images/Notepad.PNG)
+![Menu Bar]/images/Menu.PNG)
 # Files
 notepad.py - The main program.  
 notepad.pyw - This is complementary file use to implement the New Window(Independent instance of code) feature.  
