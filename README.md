@@ -11,7 +11,7 @@ Python 3
 
 # Files
 notepad.py - The main program.  
-notepad.pyw - This is complementary file use to implement the New Window(Independent instance of code) feature.  
+notepad.pyw - This is complementary file used to implement the New Window feature.  
 notepad.ico - This is the icon file for Notepad Clone.  
 transparent.ico - This is a transparent icon to replace the default tkinter icon.  
 
