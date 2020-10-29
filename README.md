@@ -17,6 +17,4 @@ transparent.ico - This is a transparent icon to replace the default tkinter icon
 
 # Acknowledgements
 [Richard Brodie](https://en.wikipedia.org/wiki/Richard_Brodie_(programmer)/) - Original Microsoft Notepad author  
-[Mrinal Verma](https://www.geeksforgeeks.org/make-notepad-using-tkinter/) - Author of educational article on using tkinter to create a simple text editor.  
- 
 
