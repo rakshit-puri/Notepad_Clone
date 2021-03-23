@@ -12,7 +12,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 import re
-from urlib.parse import quote
+from urllib.parse import quote
 
 font_tuple = "Arial 14"
 font_now = "Arial"
@@ -444,7 +444,7 @@ def show_goto(event=None):
 # Implementation of Search Command
 def search(event = None):
     txt = quote(text_area.get(1.0, END))
-    url = "https://www.google.com.tr/search?q={}" + txt
+    url = "https://www.google.com.tr/search?q=" + txt
     webbrowser.open_new_tab(url)
 
 
