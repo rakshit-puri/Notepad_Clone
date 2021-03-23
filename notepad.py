@@ -12,6 +12,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 import re
+from urlib.parse import quote
 
 font_tuple = "Arial 14"
 font_now = "Arial"
@@ -442,7 +443,8 @@ def show_goto(event=None):
 
 # Implementation of Search Command
 def search(event = None):
-    url = "https://www.google.com.tr/search?q={}".format(text_area.get(1.0, END))
+    txt = quote(text_area.get(1.0, END))
+    url = "https://www.google.com.tr/search?q={}" + txt
     webbrowser.open_new_tab(url)
 
 
@@ -478,9 +480,6 @@ def time_date(event = None):
     text_area.insert(END, t + " " + day + "-" + month + "-" + year)
 
 
-# This is a clone of Microsoft's Notepad
-# It is not a licensed copy and is for educational purpose only
-# Commercial use of this notepad is illegal and I am not responsible for any action taken against the user
 def get_help():
     msg.showinfo("Notepad", "This is a Notepad clone by skate1512")
 
