@@ -16,5 +16,5 @@ notepad.ico - This is the icon file for Notepad Clone.
 transparent.ico - This is a transparent icon to replace the default tkinter icon.  
 
 # Acknowledgements
-[Richard Brodie](https://en.wikipedia.org/wiki/Richard_Brodie_(programmer)/) - Original Microsoft Notepad creator  
+[Richard Brodie](https://en.wikipedia.org/wiki/Richard_Brodie_(programmer)) - Original Microsoft Notepad creator  
 
